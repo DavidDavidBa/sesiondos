@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+:root {
+  --primary: #ffffff;
+  --secondary: #202124;
+  --terciary: #e4002c;
+  font-family: 'Rubik', sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 25px -4px var(--secondary);
+  padding: 30px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  border: 2px solid var(--terciary);
+  background-color: var(--primary);
+}
+
+form > div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form > h3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form > div input,
+form > div select {
+  border: 2px solid var(--terciary);
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+form > button {
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: var(--terciary);
+  width: 50%;
+  align-self: center;
+  color: var(--primary);
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all, 0.5s;
+}
+
+form > button:hover {
+  box-shadow: 0px 10px 25px -4px var(--secondary);
+}
+.mb-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+
+.mb-4 > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.1em;
+  border: 0.1em solid var(--secondary);
+  border-radius: 1em;
+  background-color: antiquewhite;
+}
+.mb-4 div a {
+  color: red;
+  font-style: oblique;
+}
+
+.col-md-8 {
+  width: 100%;
+  margin: 0.2em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.col-md-8 h2 {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carne {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  flex-direction: row;
+  display: flex;
+}
+
+.carne div {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  flex-direction: row;
+  display: grid;
+  justify-content: center;
+}
+.carne div h3 {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carne div img {
+  margin: 0.1em;
+  padding: 0.4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8em, 1fr));
+  gap: 2em;
+}
+.carne div p {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pescado {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  flex-direction: row;
+  display: flex;
+}
+.pescado div {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  flex-direction: row;
+  display: grid;
+  justify-content: center;
+}
+.pescado div h3 {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pescado div img {
+  margin: 0.1em;
+  padding: 0.4em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(8em, 1fr));
+  gap: 2em;
+}
+.pescado div p {
+  width: 100%;
+  margin: 0.1em;
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuerpo-tarjeta {
+  display: none;
+}
+
+.alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 10px;
+  margin: 0.1em;
+  padding: 0.1em;
+  border: 0.1em solid var(--secondary);
+  border-radius: 1em;
+  background-color: chartreuse;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="shortcut icon" href="./imagenes/Logo.jpeg" type="image/x-icon" />
+    <title>No Cocino Más</title>
+  </head>
+  <body>
+    <img src="./imagenes/Logo.jpeg" class="menu-form" />
+    <div class="contenedor">
+      <div id="cuerpo" class="fila">
+        <div class="columna">
+          <div class="tarjeta">
+            <form id="product-form" class="cuerpo-tarjeta">
+              <h3>ELEGIR UN PLATO</h3>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Nombre del Producto"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  id="price"
+                  step="0.01"
+                  placeholder="Precio del Producto"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group">
+                <select id="tipo" class="form-control">
+                  <option value="carne">CARNES</option>
+                  <option value="pescado">PESCADOS</option>
+                </select>
+              </div>
+              <input
+                type="submit"
+                value="CREAR"
+                class="btn btn-primary btn-block"
+              />
+            </form>
+          </div>
+        </div>
+        <div id="product-list" class="col-md-8">
+          <h2>CARNES</h2>
+          <div class="carne">
+            <div>
+              <h3>ALBÓNDIGAS</h3>
+              <img src="./imagenes/Albóndigas.jpeg" />
+              <p>7,95€</p>
+            </div>
+            <div>
+              <h3>HAMBURGUESAS</h3>
+              <img src="./imagenes/Hamburguesa.jpeg" />
+              <p>5,35€</p>
+            </div>
+          </div>
+
+          <h2>PESCADOS</h2>
+          <div class="pescado">
+            <div>
+              <h3>BACALAO</h3>
+              <img src="./imagenes/Bacalao.png" />
+              <p>6,99€</p>
+            </div>
+            <div>
+              <h3>MUSAKA</h3>
+              <img src="./imagenes/Musaka.jpeg" />
+              <p>9,69€</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
